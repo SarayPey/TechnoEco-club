@@ -53,11 +53,13 @@ header img {
 nav {
 	margin: 10px auto;
 	background-color: var(--eire2);
-	padding: 1% 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 nav a {
-	margin: 10px auto;
 	padding: 1%;
 	color: var(--eri1);
 	text-decoration: none;
