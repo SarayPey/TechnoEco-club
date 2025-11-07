@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&family=Fascinate+Inline&family=Felipa&family=Jolly+Lodger&family=Julius+Sans+One&family=Limelight&family=Mouse+Memoirs&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
 :root{
 	--eri1: #1a1a1a;
 	--eri2: #4d4d4d;
@@ -71,6 +71,12 @@ nav {
 	flex-direction: row;
 }
 
+nav img {
+	margin: auto 10px;
+	width : 65px;
+	height: 65px;
+}
+
 nav a {
 	padding: 1.4%;
 	color: var(--eri1);
@@ -102,8 +108,98 @@ main {
 	color: var(--eire4);
 }
 
+.ecoClub h1 {
+	font-size: 44px;
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+}
+
 .ecoClub img {
 	float: right;
+}
+
+/* 1: Érika */
+
+.érika {
+	background-color: var(--eri1);
+	color: var(--eri4);
+}
+
+.érika h1, h2 {
+	font-family: Jolly Lodger;
+}
+
+/* 2: Eirene */
+
+.eirene {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.eirene h1, h2 {
+	font-family: Fascinate Inline
+	;
+}
+
+/* 3: Ricardo */
+
+.ricardo {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.ricardo h1, h2 {
+	font-family: Bangers
+	;
+}
+
+/* 4: ???*/
+
+.nose {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.nose h1, h2 {
+	font-family: Fascinate Inline
+	;
+}
+
+/* 5: ???*/
+
+.nose {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.eirene h1, h2 {
+	font-family: Fascinate Inline
+	;
+}
+
+/* 6: ???*/
+
+.nose {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.nose h1, h2 {
+	font-family: Fascinate Inline
+	;
+}
+
+/* 7: ???*/
+
+.nose {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.nose h1, h2 {
+	font-family: Fascinate Inline
+	;
 }
 
 footer{
@@ -111,5 +207,4 @@ footer{
 	padding: 1%;
 	background-color: var(--eire2);
 	color: var(--eri1);
-
 }

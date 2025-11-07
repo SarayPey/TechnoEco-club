@@ -51,6 +51,12 @@ header{
 	text-align: center;
 }
 
+nav img {
+	margin: auto 10px;
+	width : 65px;
+	height: 65px;
+}
+
 header img {
 	border-radius: 50%;
 	width: 250px;
@@ -64,6 +70,12 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+}
+
+nav img {
+	margin: auto 10px;
+	width : 65px;
+	height: 65px;
 }
 
 nav a {
@@ -98,5 +110,4 @@ footer{
 	padding: 1%;
 	background-color: var(--eire2);
 	color: var(--eri1);
-
 }
