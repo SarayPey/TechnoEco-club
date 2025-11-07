@@ -42,7 +42,7 @@ body {
 header{
 	margin: 10px auto;
 	padding: 1%;
-	background-image: url("media/mainHeader.jpg");
+	background-image: url("../media/mainHeader.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
