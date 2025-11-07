@@ -36,9 +36,7 @@ p, i, b, em, li, td, th, tr, footer, a {
 }
 
 body {
-	background-image: url("media/Kirby/Kirby.png");
-	background-size: 7.7%;
-	background-attachment: fixed;
+	background-color: var(--eire4);
 }
 
 header{
@@ -64,13 +62,12 @@ nav {
 	margin: 10px auto;
 	background-color: var(--eire2);
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
 nav a {
-	padding: 1%;
+	padding: 1.4%;
 	color: var(--eri1);
 	text-decoration: none;
 }
@@ -82,11 +79,11 @@ nav #active{
 
 nav a:hover {
 	background-color: var(--eri1);
-	color: var(--eire4);
+	color: var(--eire7);
 }
 #active:hover {
 	background-color: var(--eri1);
-	color: var(--eire4);
+	color: var(--eire7);
 }
 
 main {
@@ -101,4 +98,5 @@ footer{
 	padding: 1%;
 	background-color: var(--eire2);
 	color: var(--eri1);
+
 }
