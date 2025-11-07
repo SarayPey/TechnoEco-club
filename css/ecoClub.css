@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&family=Fascinate+Inline&family=Felipa&family=Jolly+Lodger&family=Julius+Sans+One&family=Limelight&family=Mouse+Memoirs&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&family=Felipa&family=Julius+Sans+One&family=Just+Me+Again+Down+Here&family=Limelight&family=Mouse+Memoirs&family=Quicksand:wght@300..700&family=Quintessential&family=Splash&display=swap");
 :root{
 	--eri1: #1a1a1a;
 	--eri2: #4d4d4d;
@@ -127,7 +127,7 @@ main {
 }
 
 .érika h1, h2 {
-	font-family: Jolly Lodger;
+	font-family: splash;
 }
 
 /* 2: Eirene */
@@ -138,7 +138,7 @@ main {
 }
 
 .eirene h1, h2 {
-	font-family: Fascinate Inline
+	font-family: Felipa
 	;
 }
 
@@ -162,43 +162,43 @@ main {
 }
 
 .nose h1, h2 {
-	font-family: Fascinate Inline
+	font-family: "Coral Pixels"
 	;
 }
 
 /* 5: ???*/
 
-.nose {
+.dos {
 	background-color: var(--eire2);
 	color: var(--eire3);
 }
 
-.eirene h1, h2 {
-	font-family: Fascinate Inline
-	;
+.dos h1, h2 {
+	font-family: Just Me Again Down Here;
 }
 
 /* 6: ???*/
 
-.nose {
+.tres {
 	background-color: var(--eire2);
 	color: var(--eire3);
 }
 
-.nose h1, h2 {
-	font-family: Fascinate Inline
+.tres h1, h2 {
+	font-family: Julius Sans One
 	;
 }
 
 /* 7: ???*/
 
-.nose {
+.cuatro {
 	background-color: var(--eire2);
 	color: var(--eire3);
 }
 
-.nose h1, h2 {
-	font-family: Fascinate Inline
+.cuatro h1, h2 {
+	font-family: Mouse Memoirs
+
 	;
 }
 
