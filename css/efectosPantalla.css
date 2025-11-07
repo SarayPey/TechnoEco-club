@@ -5,11 +5,21 @@
 	--eri3: #c21f80;
 	--eri4: #88ff8c;
 	--eri5: #e8e8e8;
+	--eri6: #1c1c1c;
+	--eri7: #6a0dad;
+	--eri8: #ff006e;
+	--eri9: #a3a3a3;
+	--eri10: #e4b1f4;
 	--eire1: #c9e4ff;
 	--eire2: #a1c4fd;
 	--eire3: #fff6f6;
 	--eire4: #f2d8e8;
 	--eire5: #b1e0c5;
+	--eire6: #f5e6cc;
+	--eire7: #f7b5a3;
+	--eire8: #ffd6e0;
+	--eire9: #b8e1dd;
+	--eire10: #8a817c;
 }
 
 * {
@@ -91,5 +101,4 @@ footer{
 	padding: 1%;
 	background-color: var(--eire2);
 	color: var(--eri1);
-
 }
