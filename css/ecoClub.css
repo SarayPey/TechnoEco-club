@@ -145,64 +145,63 @@ main {
 /* 3: Ricardo */
 
 .ricardo {
-	background-color: var(--eire2);
-	color: var(--eire3);
+	background-color: var(--eire5);
+	color: var(--eri1);
 }
 
 .ricardo h1, h2 {
-	font-family: Bangers
-	;
+	font-family: Bangers;
 }
 
 /* 4: ???*/
 
-.nose {
-	background-color: var(--eire2);
-	color: var(--eire3);
+.julian {
+	background-color: var(--eire7);
+	color: var(--eri6);
 }
 
-.nose h1, h2 {
+.julian h1, h2 {
 	font-family: "Coral Pixels"
 	;
 }
 
 /* 5: ???*/
 
-.dos {
-	background-color: var(--eire2);
-	color: var(--eire3);
+.bianca {
+	background-color: var(--eri3);
+	color: var(--eri10);
 }
 
-.dos h1, h2 {
+.bianca h1, h2 {
 	font-family: Just Me Again Down Here;
 }
 
 /* 6: ???*/
 
-.tres {
-	background-color: var(--eire2);
-	color: var(--eire3);
+.thiago {
+	background-color: var(--eri6);
+	color: var(--eire2);
 }
 
-.tres h1, h2 {
+.thiago h1, h2 {
 	font-family: Julius Sans One
 	;
 }
 
 /* 7: ???*/
 
-.cuatro {
+.vanessa {
 	background-color: var(--eire2);
 	color: var(--eire3);
 }
 
-.cuatro h1, h2 {
+.vanessa h1, h2 {
 	font-family: Mouse Memoirs
 
 	;
 }
 
-footer{
+footer {
 	margin: 10px auto;
 	padding: 1%;
 	background-color: var(--eire2);
