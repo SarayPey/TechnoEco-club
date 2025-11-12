@@ -25,7 +25,7 @@
 	--reyi3   : #0B0C10;
 	--reyi4   : #B30E2A;
 	--reyi5   : #a4bfd1;
-	--reyi6   : #E43D12;
+	--reyi6   : #ff663f;
 	--reyi7   : #FFD447;
 	--reyi8   : #00A8FF;
 	--reyi9   : #5C636E;
@@ -37,32 +37,32 @@
 	--juli5   : #BFC4C6;
 	--juli6   : #F1EEE9;
 	--juli7   : #E7D3C5;
-	--juli8   : #BBAE9E;
+	--juli8   : #66461e;
 	--juli9   : #77685D;
 	--juli10  : #4C5C68;
-	--bibi1   : #F8BBD0;
+	--bibi1   : #f7adc7;
 	--bibi2   : #FDFDFD;
 	--bibi3   : #A67B5B;
 	--bibi4   : #E7CBA9;
 	--bibi5   : #F7B5A3;
 	--bibi6   : #F6C6C6;
 	--bibi7   : #FFF4E6;
-	--bibi8   : #7C3846;
+	--bibi8   : #d4497f;
 	--bibi9   : #A07855;
 	--bibi10  : #C8C9A3;
 	--mathy1  : #3B2F2F;
 	--mathy2  : #556B2F;
 	--mathy3  : #D8C4A4;
 	--mathy4  : #4E2A2A;
-	--mathy5  : #3B2F2F;
+	--mathy5  : #cc6052;
 	--mathy6  : #4E342E;
 	--mathy7  : #D7CCC8;
 	--mathy8  : #2E4A36;
-	--mathy9  : #5E2C2C;
+	--mathy9  : #993b3b;
 	--mathy10 : #8D8C87;
 	--vanes1  : #7FB77E;
 	--vanes2  : #FFF7D1;
-	--vanes3  : #D99263;
+	--vanes3  : #522b11;
 	--vanes4  : #F8F4E3;
 	--vanes5  : #EAC435;
 	--vanes6  : #A8BBA1;
@@ -89,16 +89,21 @@ body {
 	background-color: var(--eire4);
 }
 
-header{
+header {
 	margin: 10px auto;
 	padding: 1%;
-	background-image: url("media/mainHeader.jpg");
+	background-image: url("../media/mainHeader.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 10%;
-	color: var(--eire5);
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	font-size: 44px;
+	color: var(--eire3);
+	text-shadow: 0 0 25px var(--eri8);
 }
 
 header img {

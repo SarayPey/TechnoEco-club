@@ -25,7 +25,7 @@
 	--reyi3   : #0B0C10;
 	--reyi4   : #B30E2A;
 	--reyi5   : #a4bfd1;
-	--reyi6   : #E43D12;
+	--reyi6   : #ff663f;
 	--reyi7   : #FFD447;
 	--reyi8   : #00A8FF;
 	--reyi9   : #5C636E;
@@ -37,32 +37,32 @@
 	--juli5   : #BFC4C6;
 	--juli6   : #F1EEE9;
 	--juli7   : #E7D3C5;
-	--juli8   : #BBAE9E;
+	--juli8   : #66461e;
 	--juli9   : #77685D;
 	--juli10  : #4C5C68;
-	--bibi1   : #F8BBD0;
+	--bibi1   : #f7adc7;
 	--bibi2   : #FDFDFD;
 	--bibi3   : #A67B5B;
 	--bibi4   : #E7CBA9;
 	--bibi5   : #F7B5A3;
 	--bibi6   : #F6C6C6;
 	--bibi7   : #FFF4E6;
-	--bibi8   : #7C3846;
+	--bibi8   : #d4497f;
 	--bibi9   : #A07855;
 	--bibi10  : #C8C9A3;
 	--mathy1  : #3B2F2F;
 	--mathy2  : #556B2F;
 	--mathy3  : #D8C4A4;
 	--mathy4  : #4E2A2A;
-	--mathy5  : #3B2F2F;
+	--mathy5  : #cc6052;
 	--mathy6  : #4E342E;
 	--mathy7  : #D7CCC8;
 	--mathy8  : #2E4A36;
-	--mathy9  : #5E2C2C;
+	--mathy9  : #993b3b;
 	--mathy10 : #8D8C87;
 	--vanes1  : #7FB77E;
 	--vanes2  : #FFF7D1;
-	--vanes3  : #D99263;
+	--vanes3  : #522b11;
 	--vanes4  : #F8F4E3;
 	--vanes5  : #EAC435;
 	--vanes6  : #A8BBA1;
@@ -89,7 +89,7 @@ body {
 	background-color: var(--eire4);
 }
 
-header{
+header {
 	margin: 10px auto;
 	padding: 1%;
 	background-image: url("../media/mainHeader.jpg");
@@ -147,8 +147,11 @@ nav a:hover {
 	color: var(--eire7);
 }
 
-main {
-	padding: 5%;
+#logoEco { 
+	text-align: center;
+}
+#logoEco img {
+	height: 250px;
 }
 
 .ecoClub {
@@ -195,19 +198,19 @@ main {
 /* 3: Ricardo */
 
 .ricardo {
-	background-color: var(--eire5);
-	color: var(--eri1);
+	background-color: var(--reyi10);
+	color: var(--reyi6);
 }
 
 .ricardo h1, h2 {
 	font-family: Bangers;
 }
 
-/* 4: ???*/
+/* 4: Julián*/
 
 .julian {
-	background-color: var(--eire7);
-	color: var(--eri6);
+	background-color: var(--juli2);
+	color: var(--juli6);
 }
 
 .julian h1, h2 {
@@ -215,22 +218,22 @@ main {
 	;
 }
 
-/* 5: ???*/
+/* 5: Bianca */
 
 .bianca {
-	background-color: var(--eri3);
-	color: var(--eri10);
+	background-color: var(--bibi1);
+	color: var(--bibi8);
 }
 
 .bianca h1, h2 {
 	font-family: Just Me Again Down Here;
 }
 
-/* 6: ???*/
+/* 6: Thiago */
 
 .thiago {
-	background-color: var(--eri6);
-	color: var(--eire2);
+	background-color: var(--mathy1);
+	color: var(--mathy3);
 }
 
 .thiago h1, h2 {
@@ -238,11 +241,11 @@ main {
 	;
 }
 
-/* 7: ???*/
+/* 7: Vanessa */
 
 .vanessa {
-	background-color: var(--eri7);
-	color: var(--eire8);
+	background-color: var(--vanes10);
+	color: var(--vanes3);
 }
 
 .vanessa h1, h2 {
