@@ -91,8 +91,7 @@ body {
 
 header {
 	margin: 10px auto;
-	padding: 1%;
-	background-image: url("../media/mainHeader.jpg");
+	background-image: url("media/mainHeader.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -130,7 +129,10 @@ nav #logo {
 	align-items: center;
 	gap: 10px;
 	text-align: center;
-	padding: 1%;
+}
+#logo p{
+	width: 60px;
+	margin-right: 10px;
 }
 
 #logo img {
@@ -175,18 +177,8 @@ footer{
 @media (min-width: 768px){
 	header {
 	margin: 10px auto;
-	padding: 1%;
-	background-image: url("../media/mainHeader.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 	padding: 10%;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
 	gap: 50px;
-	color: var(--eire3);
-	text-shadow: 0 0 25px var(--eri8);
 	}
 
 	header img {
@@ -203,7 +195,6 @@ footer{
 
 	nav {
 		margin: 10px auto;
-		background-color: var(--eire2);
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column;
@@ -218,42 +209,22 @@ footer{
 	}
 
 	#logo img {
-		width : 80px;
-		height: 80px;
+		width : 50px;
+		height: 50px;
 	}
 
 	nav a {
-		padding: 1.4%;
-		color: var(--eri1);
-		text-decoration: none;
-	}
-	nav #active{
-		background-color: var(--eri1);
-		color: var(--eri4);
-	}
-
-
-	nav a:hover {
-		background-color: var(--eri1);
-		color: var(--eire7);
-	}
-	#active:hover {
-		background-color: var(--eri1);
-		color: var(--eire7);
+		padding: auto;
 	}
 
 	main {
 		margin: auto;
 		padding: 1%;
-		background-color: var(--eri3);
-		color: var(--eire4);
 	}
 
 	footer{
 		margin: 10px auto;
 		padding: 1%;
-		background-color: var(--eire2);
-		color: var(--eri1);
 	}
 }
 
@@ -284,7 +255,6 @@ footer{
 		font-size: 75px;
 		margin: 0;
 	}
-	
 	nav {
 		background-color: var(--eire2);
 		display: flex;
@@ -296,17 +266,15 @@ footer{
 	nav #logo {
 		display: flex;
 		align-items: center;
-		gap: 5px;
 		text-align: left;
-		padding: 1%;
 		padding: 0;
 		margin: 0;
 	}
 	
-	nav img {
+	#nav img {
 		margin: 0;
-		width : 65px;
-		height: 65px;
+		width : 50px;
+		height: 50px;
 	}
 	
 }
