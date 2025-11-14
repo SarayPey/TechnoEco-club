@@ -86,12 +86,11 @@ p, i, b, em, li, td, th, tr, footer, a {
 }
 
 body {
-	background-color: var(--eire4);
+	background-color: var(--mathy10);
 }
 
 header {
 	margin: 10px auto;
-	padding: 1%;
 	background-image: url("../media/mainHeader.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -101,9 +100,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
-	font-size: 44px;
-	color: var(--eire3);
-	text-shadow: 0 0 25px var(--eri8);
+	color: var(--vanes7);
+	text-shadow: 0 0 25px var(--eire5);
 }
 
 header img {
@@ -113,18 +111,35 @@ header img {
 	margin: auto;
 }
 
-nav {
-	margin: 10px auto;
-	background-color: var(--eire2);
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+header h1{
+	font-size: 40px;
+	margin: 0;
 }
 
-nav img {
-	margin: auto 10px;
-	width : 65px;
-	height: 65px;
+nav {
+	margin: 10px auto;
+	background-color: var(--vanes5);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+nav #logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+}
+#logo p{
+	width: 60px;
+	margin-right: 10px;
+	font-weight: bolder;
+}
+
+#logo img {
+	margin-left: 10px;
+	width : 75px;
+	height: 75px;
 }
 
 nav a {
@@ -140,23 +155,121 @@ nav #active{
 
 nav a:hover {
 	background-color: var(--eri1);
-	color: var(--eire7);
+	color: var(--vanes10);
 }
 #active:hover {
 	background-color: var(--eri1);
-	color: var(--eire7);
+	color: var(--vanes8);
 }
 
 main {
 	margin: auto;
 	padding: 1%;
-	background-color: var(--eri3);
-	color: var(--eire4);
+	background-color: var(--vanes3);
+	color: var(--bibi4);
 }
 
 footer{
 	margin: 10px auto;
 	padding: 1%;
-	background-color: var(--eire2);
+	background-color: var(--vanes5);
 	color: var(--eri1);
+}
+
+@media (min-width: 768px){
+	header {
+	margin: 10px auto;
+	padding: 10%;
+	gap: 50px;
+	}
+
+	header img {
+		border-radius: 50%;
+		width: 250px;
+		padding: auto;
+		margin: auto;
+	}
+
+	header h1{
+		font-size: 40px;
+		margin: 0;
+	}
+
+	nav {
+		margin: 10px auto;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	nav #logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		text-align: left;
+		padding: 1%;
+	}
+
+	#logo img {
+		width : 50px;
+		height: 50px;
+	}
+
+	nav a {
+		padding: auto;
+	}
+
+	main {
+		margin: auto;
+		padding: 1%;
+	}
+
+	footer{
+		margin: 10px auto;
+		padding: 1%;
+	}
+}
+
+@media (min-width: 1024px){
+	header {
+		margin: 10px auto;
+		padding: 1%;
+		padding: 10%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+	
+	header img {
+		border-radius: 50%;
+		width: 250px;
+		padding: auto;
+		margin: auto;
+	}
+	header h1 {
+		font-size: 75px;
+		margin: 0;
+	}
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	nav #logo {
+		display: flex;
+		align-items: center;
+		text-align: left;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#nav img {
+		margin: 0;
+		width : 50px;
+		height: 50px;
+	}
+	
 }

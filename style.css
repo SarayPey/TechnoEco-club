@@ -86,7 +86,7 @@ p, i, b, em, li, td, th, tr, footer, a {
 }
 
 body {
-	background-color: var(--eire4);
+	background-color: var(--mathy10);
 }
 
 header {
@@ -100,8 +100,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
-	color: var(--eire3);
-	text-shadow: 0 0 25px var(--eri8);
+	color: var(--vanes7);
+	text-shadow: 0 0 25px var(--eire5);
 }
 
 header img {
@@ -118,7 +118,7 @@ header h1{
 
 nav {
 	margin: 10px auto;
-	background-color: var(--eire2);
+	background-color: var(--vanes5);
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -133,9 +133,11 @@ nav #logo {
 #logo p{
 	width: 60px;
 	margin-right: 10px;
+	font-weight: bolder;
 }
 
 #logo img {
+	margin-left: 10px;
 	width : 75px;
 	height: 75px;
 }
@@ -153,24 +155,24 @@ nav #active{
 
 nav a:hover {
 	background-color: var(--eri1);
-	color: var(--eire7);
+	color: var(--vanes10);
 }
 #active:hover {
 	background-color: var(--eri1);
-	color: var(--eire7);
+	color: var(--vanes8);
 }
 
 main {
 	margin: auto;
 	padding: 1%;
-	background-color: var(--eri3);
-	color: var(--eire4);
+	background-color: var(--vanes3);
+	color: var(--bibi4);
 }
 
 footer{
 	margin: 10px auto;
 	padding: 1%;
-	background-color: var(--eire2);
+	background-color: var(--vanes5);
 	color: var(--eri1);
 }
 
@@ -232,17 +234,11 @@ footer{
 	header {
 		margin: 10px auto;
 		padding: 1%;
-		background-image: url("../media/mainHeader.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
 		padding: 10%;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
 		gap: 50px;
-		color: var(--eire3);
-		text-shadow: 0 0 25px var(--eri8);
 	}
 	
 	header img {
@@ -256,7 +252,6 @@ footer{
 		margin: 0;
 	}
 	nav {
-		background-color: var(--eire2);
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;

@@ -9,4 +9,10 @@ Pero nadie habla de lo bueno que también puede ser para la creatividad.
 ##### (La que está escribiendo lo confirma)
 Érika Valdes, Eirene Cartillo, Ricardo "Regguei" Ulloa y compañía nos hablarán sobre la tecnología, con sus distintos puntos de opinión al respecto, lo bueno, lo malo y lo feo.
 
-[Ingresa al sitio aquí](https://technoeco-club.netlify.app/)
+### CRÉDITOS
+- Idea de iniciativa por mi profe de Ciencias para la ciudadanía.
+- Personajes, arte y conceptos hecos por mí, una estudiante de programación.
+- imagen del header sacada de Google.
+
+[Ingresa al sitio aquí (Github Pages)](https://saraypey.github.io/TechnoEco-club/)
+[Ingresa al sitio aquí (Netlify)](https://technoeco-club.netlify.app/)
