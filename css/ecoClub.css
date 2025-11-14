@@ -36,7 +36,7 @@
 	--juli4   : #602437;
 	--juli5   : #BFC4C6;
 	--juli6   : #F1EEE9;
-	--juli7   : #E7D3C5;
+	--juli7   : #c7ac99;
 	--juli8   : #66461e;
 	--juli9   : #77685D;
 	--juli10  : #4C5C68;
@@ -111,7 +111,7 @@ header img {
 	margin: auto;
 }
 
-header h1{
+header h1 {
 	font-size: 40px;
 	margin: 0;
 }
@@ -165,8 +165,7 @@ nav a:hover {
 main {
 	margin: auto;
 	padding: 1%;
-	background-color: var(--vanes3);
-	color: var(--bibi4);
+	background-color: var(--vanes7);
 }
 
 footer{
@@ -187,8 +186,8 @@ footer{
 .ecoClub {
 	margin: 1% auto;
 	padding: 1%;
-	background-color: var(--eri3);
-	color: var(--eire4);
+	background-color: var(--mathy10);
+	color: var(--reyi3);
 }
 
 .ecoClub h1 {
