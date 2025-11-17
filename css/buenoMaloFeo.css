@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&family=Felipa&family=Julius+Sans+One&family=Just+Me+Again+Down+Here&family=Limelight&family=Mouse+Memoirs&family=Quicksand:wght@300..700&family=Quintessential&family=Splash&display=swap");
 :root {
 	--eri1    : #3b1650;
 	--eri2    : #4d4d4d;
@@ -76,18 +76,6 @@
 	transition: all .2s;
 }
 
-h1, h2 {
-	font-family: Limelight;
-}
-
-h3, h4, h5, h6 {
-	font-family: Quintessential;
-}
-
-p, i, b, em, li, td, th, tr, footer, a {
-	font-family: Quicksand;
-}
-
 body {
 	background-color: var(--mathy2);
 }
@@ -114,7 +102,7 @@ header img {
 	margin: auto;
 }
 
-header h1 {
+header h1{
 	font-size: 40px;
 	margin: 0;
 }
@@ -133,7 +121,6 @@ nav #logo {
 	gap: 10px;
 	text-align: center;
 }
-
 #logo p {
 	width: 60px;
 	margin-right: 10px;
@@ -152,7 +139,7 @@ nav a {
 	text-decoration: none;
 }
 
-nav #active{
+nav #active {
 	background-color: var(--eri6);
 	color: var(--eri4);
 }
@@ -171,8 +158,125 @@ main {
 	margin: auto;
 	padding: 1%;
 	background-color: var(--vanes3);
-	color: var(--bibi4);
+	color: var(--bibi3);
 }
+
+.ecoClub {
+	margin: 1% auto;
+	padding: 1%;
+	background-color: var(--mathy10);
+	color: var(--reyi3);
+}
+
+.ecoClub h1 {
+	font-size: 44px;
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+}
+
+.ecoClub img {
+	float: right;
+}
+
+/* 1: Érika */
+
+.érika {
+	background-color: var(--eri1);
+	color: var(--eri4);
+}
+
+.érika h1, h2 {
+	font-family: splash;
+}
+
+/* 2: Eirene */
+
+.eirene {
+	background-color: var(--eire2);
+	color: var(--eire3);
+}
+
+.eirene h1, h2 {
+	font-family: Felipa
+	;
+}
+
+/* 3: Ricardo */
+
+.ricardo {
+	background-color: var(--reyi10);
+	color: var(--reyi6);
+}
+
+.ricardo h1, h2 {
+	font-family: Bangers;
+}
+
+/* 4: Julián*/
+
+.julian {
+	background-color: var(--juli2);
+	color: var(--juli6);
+}
+
+.julian h1, h2 {
+	font-family: "Coral Pixels"
+	;
+}
+
+/* 5: Bianca */
+
+.bianca {
+	background-color: var(--bibi1);
+	color: var(--bibi8);
+}
+
+.bianca h1, h2 {
+	font-family: Just Me Again Down Here;
+}
+
+/* 6: Thiago */
+
+.thiago {
+	background-color: var(--mathy1);
+	color: var(--mathy3);
+}
+
+.thiago h1, h2 {
+	font-family: Julius Sans One;
+}
+
+/* 7: Vanessa */
+
+.vanessa {
+	background-color: var(--vanes10);
+	color: var(--vanes3);
+}
+
+.vanessa h1, h2 {
+	font-family: Mouse Memoirs;
+}
+
+footer {
+	margin: 10px auto;
+	padding: 1%;
+	background-color: var(--vanes5);
+	color: var(--eri1);
+}
+
+h1, h2 {
+	font-family: Limelight;
+}
+
+h3, h4, h5, h6 {
+	font-family: Quintessential;
+}
+
+p, i, b, em, li, td, th, tr, footer, a {
+	font-family: Quicksand;
+}
+
 
 footer {
 	margin: 10px auto;
