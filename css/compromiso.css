@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
-:root{
-	--eri1    : #1a1a1a;
+:root {
+	--eri1    : #3b1650;
 	--eri2    : #4d4d4d;
 	--eri3    : #c21f80;
 	--eri4    : #88ff8c;
 	--eri5    : #e8e8e8;
-	--eri6    : #1c1c1c;
+	--eri6    : #060606;
 	--eri7    : #6a0dad;
 	--eri8    : #ff006e;
 	--eri9    : #a3a3a3;
@@ -42,13 +42,13 @@
 	--juli10  : #4C5C68;
 	--bibi1   : #f7adc7;
 	--bibi2   : #FDFDFD;
-	--bibi3   : #A67B5B;
+	--bibi3   : #c79d7d;
 	--bibi4   : #E7CBA9;
 	--bibi5   : #F7B5A3;
 	--bibi6   : #F6C6C6;
 	--bibi7   : #FFF4E6;
 	--bibi8   : #d4497f;
-	--bibi9   : #A07855;
+	--bibi9   : #a839be;
 	--bibi10  : #C8C9A3;
 	--mathy1  : #3B2F2F;
 	--mathy2  : #556B2F;
@@ -62,7 +62,7 @@
 	--mathy10 : #8D8C87;
 	--vanes1  : #7FB77E;
 	--vanes2  : #FFF7D1;
-	--vanes3  : #522b11;
+	--vanes3  : #422b1b;
 	--vanes4  : #F8F4E3;
 	--vanes5  : #EAC435;
 	--vanes6  : #A8BBA1;
@@ -75,18 +75,21 @@
 * {
 	transition: all .2s;
 }
+
 h1, h2 {
 	font-family: Limelight;
 }
+
 h3, h4, h5, h6 {
 	font-family: Quintessential;
 }
+
 p, i, b, em, li, td, th, tr, footer, a {
 	font-family: Quicksand;
 }
 
 body {
-	background-color: var(--mathy10);
+	background-color: var(--mathy2);
 }
 
 header {
@@ -111,7 +114,7 @@ header img {
 	margin: auto;
 }
 
-header h1{
+header h1 {
 	font-size: 40px;
 	margin: 0;
 }
@@ -130,6 +133,7 @@ nav #logo {
 	gap: 10px;
 	text-align: center;
 }
+
 #logo p{
 	width: 60px;
 	margin-right: 10px;
@@ -144,21 +148,22 @@ nav #logo {
 
 nav a {
 	padding: 1.4%;
-	color: var(--eri1);
+	color: var(--eri6);
 	text-decoration: none;
 }
-nav #active{
-	background-color: var(--eri1);
+
+nav #active {
+	background-color: var(--eri6);
 	color: var(--eri4);
 }
 
-
 nav a:hover {
-	background-color: var(--eri1);
+	background-color: var(--eri6);
 	color: var(--vanes10);
 }
+
 #active:hover {
-	background-color: var(--eri1);
+	background-color: var(--eri6);
 	color: var(--vanes8);
 }
 
@@ -169,7 +174,7 @@ main {
 	color: var(--bibi4);
 }
 
-footer{
+footer {
 	margin: 10px auto;
 	padding: 1%;
 	background-color: var(--vanes5);

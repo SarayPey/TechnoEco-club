@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&family=Quicksand:wght@300..700&family=Quintessential&display=swap");
 :root{
-	--eri1    : #1a1a1a;
+	--eri1    : #3b1650;
 	--eri2    : #4d4d4d;
 	--eri3    : #c21f80;
 	--eri4    : #88ff8c;
@@ -148,17 +148,16 @@ nav a {
 	text-decoration: none;
 }
 nav #active{
-	background-color: var(--eri1);
+	background-color: var(--eri6);
 	color: var(--eri4);
 }
 
-
 nav a:hover {
-	background-color: var(--eri1);
+	background-color: var(--eri6);
 	color: var(--vanes10);
 }
 #active:hover {
-	background-color: var(--eri1);
+	background-color: var(--eri6);
 	color: var(--vanes8);
 }
 
@@ -173,7 +172,7 @@ footer{
 	margin: 10px auto;
 	padding: 1%;
 	background-color: var(--vanes5);
-	color: var(--eri6);
+	color: var(--eri1);
 }
 
 @media (min-width: 768px){
