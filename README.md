@@ -11,14 +11,13 @@ Pero nadie habla de lo bueno que también puede ser para la creatividad.
 
 ### CRÉDITOS
 - Idea de iniciativa por mi profe de Ciencias para la ciudadanía.
-- Personajes, arte y conceptos hecos por mí, una estudiante de programación.
+- Personajes, arte y conceptos hechos por mí, una estudiante de programación.
 - imagen del header sacada de Google.
-
-[Ingresa al sitio aquí (Github Pages)](https://saraypey.github.io/TechnoEco-club/)
-
-[Ingresa al sitio aquí (Netlify)](https://technoeco-club.netlify.app/)
-
 ### RECURSOS
 - [New York Times](https://www.nytimes.com/es/2018/12/12/espanol/exposicion-pantallas-ninos.html)
 - [Mi web de salud](https://www.miwebdesalud.com/perjuicios-pantallas-salud/)
 - [Infobae](https://www.infobae.com/salud/2019/04/24/pantallas-en-la-mira-por-que-la-oms-establecio-nuevas-limitaciones-a-su-uso-en-la-ninez/)
+
+[Ingresa al sitio aquí (Github Pages)](https://saraypey.github.io/TechnoEco-club/)
+
+[Ingresa al sitio aquí (Netlify)](https://technoeco-club.netlify.app/)
