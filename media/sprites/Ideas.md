@@ -1,38 +1,55 @@
 ## Érika
 
-- Normal
-- Feliz
+- *~~Normal~~*
+- *~~Feliz~~*
+- Seria
+- *~~Aburrida~~*
+- Con planes artísticos malvados
 
 ## Eirene
 
-- Normal
+- *~~Normal~~*
+- *~~Feliz~~*
+- *~~Adorable~~*
+- Diciendo una idea
+- Pintando
 
 ## Ricardo
 
-- Normal
-- Dramático
+- *~~Normal~~*
+- *~~Dramático~~*
 - Hiperactivo
-- Consola
+- *~~Consola~~*
+- Aburrido
 
 ## Julián
 
-- Normal
-- "De hecho"
+- *~~Normal~~*
+- *~~Tímido~~*
+- *~~"De hecho"~~*
+- Ansioso
+- Feliz
 
 ## Bianca
 
-- Normal
+- *~~Normal~~*
+- *~~Feliz~~*
+- *~~Pose diva~~*
+- Pensativa
+- Propuesta escrita
 
 ## Thiago
 
-- Normal
-- Rendido
-- Siendo funado
+- *~~Normal~~*
+- *~~Rendido~~*
+- *~~Siendo funado~~*
+- Feliz
 - Música
-- Buscando pokemones
 
 ## Vanessa
 
-- Normal
-- Girasol feliz
-- Vigilando a Thiago
+- *~~Normal~~*
+- *~~Girasol feliz~~*
+- *~~Vigilando a Thiago~~*
+- Cuidando un girasol
+- Analizando
