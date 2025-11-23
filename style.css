@@ -11,62 +11,62 @@
 	--eri9    : #a3a3a3;
 	--eri10   : #e4b1f4;
 	--eire1   : #c9e4ff;
-	--eire2   : #a1c4fd;
+	--eire2   : #82aae9;
 	--eire3   : #fff6f6;
 	--eire4   : #f2d8e8;
 	--eire5   : #b1e0c5;
 	--eire6   : #f5e6cc;
-	--eire7   : #f7b5a3;
+	--eire7   : #f0a48f;
 	--eire8   : #ffd6e0;
-	--eire9   : #b8e1dd;
+	--eire9   : #75aec0;
 	--eire10  : #8a817c;
 	--reyi1   : #1B1B1B;
 	--reyi2   : #007FFF;
 	--reyi3   : #0B0C10;
 	--reyi4   : #B30E2A;
 	--reyi5   : #a4bfd1;
-	--reyi6   : #ff663f;
+	--reyi6   : #ff896c;
 	--reyi7   : #FFD447;
 	--reyi8   : #00A8FF;
 	--reyi9   : #5C636E;
 	--reyi10  : #1B263B;
-	--juli1   : #E8DCC3;
+	--juli1   : #caba96;
 	--juli2   : #5C8374;
-	--juli3   : #9DBDD6;
+	--juli3   : #38556b;
 	--juli4   : #602437;
 	--juli5   : #BFC4C6;
 	--juli6   : #F1EEE9;
-	--juli7   : #E7D3C5;
+	--juli7   : #54793f;
 	--juli8   : #66461e;
-	--juli9   : #77685D;
+	--juli9   : #255023;
 	--juli10  : #4C5C68;
 	--bibi1   : #f7adc7;
-	--bibi2   : #FDFDFD;
+	--bibi2   : #f7f4f4;
 	--bibi3   : #c79d7d;
 	--bibi4   : #E7CBA9;
 	--bibi5   : #F7B5A3;
 	--bibi6   : #F6C6C6;
-	--bibi7   : #FFF4E6;
+	--bibi7   : #b6173e;
 	--bibi8   : #d4497f;
 	--bibi9   : #a839be;
 	--bibi10  : #C8C9A3;
 	--mathy1  : #3B2F2F;
 	--mathy2  : #556B2F;
 	--mathy3  : #D8C4A4;
-	--mathy4  : #4E2A2A;
-	--mathy5  : #cc6052;
+	--mathy4  : #501414;
+	--mathy5  : #eb8274;
 	--mathy6  : #4E342E;
 	--mathy7  : #D7CCC8;
 	--mathy8  : #2E4A36;
-	--mathy9  : #993b3b;
+	--mathy9  : #9e2b2b;
 	--mathy10 : #8D8C87;
 	--vanes1  : #7FB77E;
-	--vanes2  : #FFF7D1;
+	--vanes2  : #faf0c1;
 	--vanes3  : #422b1b;
 	--vanes4  : #F8F4E3;
 	--vanes5  : #EAC435;
 	--vanes6  : #A8BBA1;
-	--vanes7  : #F5F3EB;
+	--vanes7  : #f1e09b;
 	--vanes8  : #B78752;
 	--vanes9  : #A9B8C0;
 	--vanes10 : #ffce1b;
@@ -91,7 +91,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
-	color: var(--vanes7);
+	color: var(--vanes4);
 	text-shadow: 0 0 25px var(--eire5);
 }
 
@@ -158,14 +158,14 @@ main {
 	margin: auto;
 	padding: 1%;
 	background-color: var(--vanes3);
-	color: var(--bibi3);
+	color: var(--bibi2);
 }
 
 .ecoClub {
 	margin: 1% auto;
 	padding: 1%;
-	background-color: var(--mathy10);
-	color: var(--reyi3);
+	background-color: var(--juli6);
+	color: var(--reyi10)
 }
 
 .ecoClub h1 {
@@ -198,8 +198,7 @@ main {
 }
 
 .eirene h1, h2 {
-	font-family: Felipa
-	;
+	font-family: Felipa;
 }
 
 /* 3: Ricardo */
@@ -215,21 +214,20 @@ main {
 
 /* 4: Julián*/
 
-.julian {
-	background-color: var(--juli2);
+.julián {
+	background-color: var(--juli7);
 	color: var(--juli6);
 }
 
-.julian h1, h2 {
-	font-family: "Coral Pixels"
-	;
+.julián h1, h2 {
+	font-family: "Coral Pixels";
 }
 
 /* 5: Bianca */
 
 .bianca {
 	background-color: var(--bibi1);
-	color: var(--bibi8);
+	color: var(--bibi7);
 }
 
 .bianca h1, h2 {
@@ -239,8 +237,8 @@ main {
 /* 6: Thiago */
 
 .thiago {
-	background-color: var(--mathy1);
-	color: var(--mathy3);
+	background-color: var(--mathy9);
+	color: var(--mathy7);
 }
 
 .thiago h1, h2 {
@@ -275,14 +273,30 @@ h3, h4, h5, h6 {
 
 p, i, b, em, li, td, th, tr, footer, a {
 	font-family: Quicksand;
+	text-decoration: none;
 }
 
+a {
+	color: var(--eri4);
+	font-weight: bold;
+}
+
+nav a {
+	font-weight: 400;
+}
+
+footer {
+	margin: 10px auto;
+	padding: 1%;
+	background-color: var(--vanes5);
+	color: var(--eri2);
+}
 
 @media (min-width: 768px){
 	header {
-	margin: 10px auto;
-	padding: 10%;
-	gap: 50px;
+		margin: 10px auto;
+		padding: 10%;
+		gap: 50px;
 	}
 
 	header img {
@@ -326,7 +340,7 @@ p, i, b, em, li, td, th, tr, footer, a {
 		padding: 1%;
 	}
 
-	footer{
+	footer {
 		margin: 10px auto;
 		padding: 1%;
 	}
@@ -349,6 +363,7 @@ p, i, b, em, li, td, th, tr, footer, a {
 		padding: auto;
 		margin: auto;
 	}
+
 	header h1 {
 		font-size: 75px;
 		margin: 0;
@@ -373,5 +388,4 @@ p, i, b, em, li, td, th, tr, footer, a {
 		width : 50px;
 		height: 50px;
 	}
-	
 }
