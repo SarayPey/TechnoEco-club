@@ -1,7 +1,7 @@
 # Techno-EcoClub
 ###### (Mejor dicho: Cuando eres artista sin control parental y haces un grupo de adolescentes ficticios para generar simpatía y reconocimiento entre tus pares)
 
-[Básicamente, una cosa de Emoji Kitchen con texto de canva](TECHNOECO-CLuB.png)
+[Básicamente, una cosa de Emoji Kitchen con texto de canva](TECHNOECO-CLUB.png)
 ###### ↑ Básicamente, una cosa de Emoji Kitchen con texto de Canva
 
 Es común ver a que dicen "El telefono es malo, te mata las neuronas".  
