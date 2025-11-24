@@ -189,8 +189,27 @@ main {
 	font-size: 18px;
 }
 
-.ecoClub img {
-	float: right;
+.ecoClub h1, h2, h3, h4, h5, h6, p, b, i, li, ul, ol {
+	margin-left: 5px;
+}
+
+.ecoClub .avatar {
+	text-align: center;
+	width : 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin: 5px auto;
+	border: 2px dashed;
+	filter: drop-shadow(0 0 25px);
+	display: block;
+}
+
+.ecoClub .avatar img {
+	width : 250px;
+	height: 500px;
+	object-fit: cover;
+	transform: scale(1.15) translate(-20px, -100px);
 }
 
 /* 1: Érika */
@@ -356,6 +375,21 @@ footer {
 		font-size: 20px;
 	}
 
+	.ecoClub p {
+		font-size: 20px;
+	}
+
+	.ecoClub .avatar {
+		text-align: right;
+		float: right;
+		margin: 10px;
+		transform: translateX(-25px);
+	}
+
+	.ecoClub .avatar img {
+		transform: scale(1.15) translate(-20px, -100px);
+	}
+
 	nav a {
 		padding: auto;
 	}
@@ -393,6 +427,7 @@ footer {
 		font-size: 75px;
 		margin: 0;
 	}
+
 	nav {
 		display: flex;
 		flex-wrap: wrap;
@@ -412,5 +447,9 @@ footer {
 		margin: 0;
 		width : 50px;
 		height: 50px;
+	}
+
+	.ecoClub p {
+		font-size: 18px;
 	}
 }
