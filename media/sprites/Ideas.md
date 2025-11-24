@@ -2,54 +2,54 @@
 
 - *~~Normal~~*
 - *~~Feliz~~*
-- Seria
+- *~~Seria~~*
 - *~~Aburrida~~*
-- Con planes artísticos malvados
+- *~~Con planes artísticos malvados~~*
 
 ## Eirene
 
 - *~~Normal~~*
 - *~~Feliz~~*
 - *~~Adorable~~*
-- Diciendo una idea
-- Pintando
+- *~~Diciendo una idea~~*
+- *~~Pintando~~*
 
 ## Ricardo
 
 - *~~Normal~~*
 - *~~Dramático~~*
-- Hiperactivo
+- *~~Hiperactivo~~*
 - *~~Consola~~*
-- Aburrido
+- *~~Aburrido~~*
 
 ## Julián
 
 - *~~Normal~~*
 - *~~Tímido~~*
 - *~~"De hecho"~~*
-- Ansioso
-- Feliz
+- *~~Ansioso~~*
+- *~~Feliz~~*
 
 ## Bianca
 
 - *~~Normal~~*
 - *~~Feliz~~*
 - *~~Pose diva~~*
-- Pensativa
-- Propuesta escrita
+- *~~Pensativa~~*
+- *~~Propuesta escrita~~*
 
 ## Thiago
 
 - *~~Normal~~*
 - *~~Rendido~~*
 - *~~Siendo funado~~*
-- Feliz
-- Música
+- *~~Feliz~~*
+- *~~Música~~*
 
 ## Vanessa
 
 - *~~Normal~~*
 - *~~Girasol feliz~~*
 - *~~Vigilando a Thiago~~*
-- Cuidando un girasol
-- Analizando
+- *~~Cuidando un girasol~~*
+- *~~Analizando~~*
